@@ -1,0 +1,11 @@
+#datasource配置
+spring:
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/mall?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8
+
+#mybatis配置
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
